@@ -36,7 +36,7 @@ export default function LoginForm() {
         .post("https://jsonplaceholder.typicode.com/posts", name, password)
         .then((response) => {
           console.log(response);
-          alert("submitted");
+          alert("Logged in Successfully");
         })
         .catch((error) => {
           console.log(error);
